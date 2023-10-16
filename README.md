@@ -30,6 +30,9 @@ To ennumerate the reaction products we use Molecular Sketcher Node to draw the r
 ![image](https://github.com/angus-e-mcmillan/comp-tools/assets/57298625/d7d6e981-4327-44df-bb00-7c0243e204c4)
 
 Now we can enumerate our reaction products. By plugging the output into the Molecular Properties node we can also calculate some properties, like MW and sum formula.
+![image](https://github.com/angus-e-mcmillan/comp-tools/assets/57298625/9553db90-41ff-4f8b-86a0-c3984aca08cd)
+
 
 Finally to save our output we can use CSV writer.
+![image](https://github.com/angus-e-mcmillan/comp-tools/assets/57298625/782b6352-4d66-4e0e-ae6c-baad6ce01b9f)
 
