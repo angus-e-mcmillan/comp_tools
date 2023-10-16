@@ -1,6 +1,8 @@
 # comp-tools
 Useful Comp Tools Session
 
+If you want to skip building your own workflow (shown below) just import "Reactions_with_RDKit_Hub_after4.3" and update the data paths.
+
 Today we are going to look into using KNIME to enumerate reaction products and then calculate some properties for those products. First we need to install KNIME, I'm using version 5.1.1. You can download it here...
 
 https://www.knime.com/downloads
