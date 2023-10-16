@@ -36,3 +36,4 @@ Now we can enumerate our reaction products. By plugging the output into the Mole
 Finally to save our output we can use CSV writer.
 ![image](https://github.com/angus-e-mcmillan/comp-tools/assets/57298625/782b6352-4d66-4e0e-ae6c-baad6ce01b9f)
 
+Now try making a three component library by including the materials from the amines.csv to perform a reductive amination.
