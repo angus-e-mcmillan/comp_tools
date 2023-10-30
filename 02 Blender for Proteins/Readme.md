@@ -17,3 +17,13 @@ Now lets import a protein to play with. In the scence menu, find scene proerties
 ![image](https://github.com/angus-e-mcmillan/comp-tools/assets/57298625/66454616-ecac-49a3-aa0d-b622b8ff6fe0)
 
 Press the "z" key and select "rendered" (or hot key 8). Now you should see your protein as an atom point cloud.
+
+![image](https://github.com/angus-e-mcmillan/comp-tools/assets/57298625/8bbbfc54-361f-4dcc-9738-ff40c36a56db)
+
+Select "Geometry Nodes" at the top of the screne and select your protein to see the Nodes applied to that object.
+
+![Screenshot 2023-10-30 at 09 11 42](https://github.com/angus-e-mcmillan/comp-tools/assets/57298625/a844a9c1-e7da-45f4-8402-886773207e57)
+
+Press Shift + A to add more nodes. Use the search feature to find Join Geometry. In the same dropdown we find the Molecular nodes, nodes. We can try out some of the styles to change the look of your protein. Try connecting the atoms from 2 Named Attributes nodes into "stick ball and stick" "style_cartoon" and "style surface" nodes. Then use the Join Geometry node to combine them. Play with the settings and find something that you like.
+
+![Screenshot 2023-10-30 at 09 11 54](https://github.com/angus-e-mcmillan/comp-tools/assets/57298625/f5ed628f-b7bd-445d-a06c-e5293d2f778a)
