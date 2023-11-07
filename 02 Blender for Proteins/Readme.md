@@ -14,6 +14,8 @@ Change Device: "GPU Compute"
 
 Now lets import a protein to play with. In the scence menu, find scene proerties, here you will see the Molecular Nodes tab (if you installed it). You can use the PDB ID to download a protein directly.
 
+Common short cuts for blender opoerations can be found here (https://docs.blender.org/manual/en/latest/interface/keymap/introduction.html)
+
 ![image](https://github.com/angus-e-mcmillan/comp-tools/assets/57298625/66454616-ecac-49a3-aa0d-b622b8ff6fe0)
 
 Press the "z" key and select "rendered" (or hot key 8). Now you should see your protein as an atom point cloud.
