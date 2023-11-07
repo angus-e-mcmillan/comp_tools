@@ -39,3 +39,8 @@ Now you can render an image by pressing F12 or selecting render image from the r
 ![Screenshot 2023-10-30 at 09 16 21](https://github.com/angus-e-mcmillan/comp-tools/assets/57298625/75c6e911-203f-4dd1-8207-cad0117e05a8)
 
 You can improve the scene further by experimenting with lights, or importing different assets. 
+
+Some good resources:
+https://www.youtube.com/@BradyJohnston
+https://www.youtube.com/@CGFigures
+https://www.youtube.com/@LuminousLab
