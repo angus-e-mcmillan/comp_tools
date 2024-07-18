@@ -31,11 +31,30 @@
 #Why 1? What is in [0], well it is the name of the file your executing
 #If we don't add our name we get indexerror: list index out of range
 
+#import sys
+#if len(sys.argv) < 2:
+#    print("too few arguments")
+#elif len(sys.argv) > 2:
+#    print("too many arguments")
+#else:
+#    print("Hello, my name is", sys.argv[1])
+
+#use pip install cowsay in command line
+
+#import cowsay
+#import sys
+
+#if len(sys.argv) == 2:
+#    cowsay.trex("Hello, " + sys.argv[1])
+
+#using pip requests
+#apple API
+#JSON lanaguage independant file for formatting text
+
+import requests
 import sys
-if len(sys.argv) < 2:
-    print("too few arguments")
-elif len(sys.argv) > 2:
-    print("too many arguments")
-else:
-    print("Hello, my name is", sys.argv[1])
-31:30
+
+if len(sys.argv) != 2:
+    sys.exit()
+requests.get("https://itunes.apple.com/search?entity=sing&limit=1&term=" + sys.argv[1])
+print(response.jason())
