@@ -1,4 +1,5 @@
 import sys
+import csv
 
 if len(sys.argv) > 3:
     sys.exit("Too many comand-line arguments")
@@ -15,12 +16,17 @@ if filetype[1] != "csv":
 students = []
 try:
     with open(input_file) as file:
-        for line in file:
-            student = line.rstrip().split(",")
-            students.append(student)
+        reader = csv.DictReader(file)
+        for row in reader:
+            students.append({"name": row["name"], "house": row["house"]})
 except FileNotFoundError:
     sys.exit("File does not exist")
 
+for student in students:
 
 
 print(students)
+
+with open(output_file, "a") as file:
+    writer = csv.DictWriter(file, fieldnames=["name", "house"])
+    writer.writerow({"name": row["name"], "house": row["house"]})
